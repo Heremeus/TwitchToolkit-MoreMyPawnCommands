@@ -30,3 +30,6 @@ Lists all damaged or replaced body parts
 - !mypawngear does currently not support SimpleSidearms or other mods allowing your pawn to equip more than one weapon
 - Requires HugsLib and TwitchToolkit
 - Place below TwitchToolkit
+
+## Settings
+You can use the mod settings to disable some parts of the messages or the TwitchToolkit command settings to disable them.
