@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+	<name>TwitchToolkit - More !mypawn Commands</name>
+	<author>Heremeus</author>
+  <supportedVersions>
+    <li>1.0</li>
+  </supportedVersions>
+	<description>Adds new commands for your viewers. No more "Can you show my health tab please?", "What weapon do I have?" and so on.
+
+Commands:
+!mypawngear - Shows all weapons and apparel equipped by a pawn (simple side-arms is currently not supported)
+!mypawnhealth - Shows a pawn health summary and queued surgeries
+!mypawnhealth [capacity] - e.g. "!mypawnhealth blood pump" will show details for a pawns blood pumping
+!mypawnbody - Shows the status of each body part</description>
+	<url>https://steamcommunity.com/id/Heremeus/myworkshopfiles/?appid=294100</url>
+</ModMetaData>

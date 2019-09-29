@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <TwitchToolkit.Command>
+    <defName>MyPawnGear</defName>
+    <label>My pawn gear</label>
+    <command>mypawngear</command>
+    <shouldBeInSeparateRoom>true</shouldBeInSeparateRoom>
+    <commandDriver>TwitchToolkitMoreMyPawnCommands.Commands.MyPawnGear</commandDriver>
+  </TwitchToolkit.Command>
+  <TwitchToolkit.Command>
+    <defName>MyPawnHealth</defName>
+    <label>My pawn health</label>
+    <command>mypawnhealth</command>
+    <shouldBeInSeparateRoom>true</shouldBeInSeparateRoom>
+    <commandDriver>TwitchToolkitMoreMyPawnCommands.Commands.MyPawnHealth</commandDriver>
+  </TwitchToolkit.Command>
+  <TwitchToolkit.Command>
+    <defName>MyPawnBody</defName>
+    <label>My pawn body</label>
+    <command>mypawnbody</command>
+    <shouldBeInSeparateRoom>true</shouldBeInSeparateRoom>
+    <commandDriver>TwitchToolkitMoreMyPawnCommands.Commands.MyPawnBody</commandDriver>
+  </TwitchToolkit.Command>
+</Defs>
