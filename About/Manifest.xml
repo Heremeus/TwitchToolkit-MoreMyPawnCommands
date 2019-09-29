@@ -7,4 +7,6 @@
         <li>HugsLib</li>
     </dependencies>
     <showCrossPromotions>true</showCrossPromotions>
+    <manifestUri>https://raw.githubusercontent.com/Heremeus/TwitchToolkit-MoreMyPawnCommands/master/About/Manifest.xml</manifestUri>
+    <downloadUri>https://github.com/Heremeus/TwitchToolkit-MoreMyPawnCommands/releases/latest</downloadUri>
 </Manifest>
