@@ -9,42 +9,47 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>TwitchToolkitMoreMyPawnCommands</RootNamespace>
     <AssemblyName>TwitchToolkitMoreMyPawnCommands</AssemblyName>
-    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>false</DebugSymbols>
     <DebugType>none</DebugType>
     <Optimize>false</Optimize>
-    <OutputPath>..\Assemblies\</OutputPath>
+    <OutputPath>..\v1.1\Assemblies\</OutputPath>
     <DefineConstants>
     </DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugType>none</DebugType>
     <Optimize>true</Optimize>
-    <OutputPath>..\Assemblies\</OutputPath>
+    <OutputPath>..\v1.1\Assemblies\</OutputPath>
     <DefineConstants>
     </DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="0Harmony">
-      <HintPath>..\..\..\..\..\..\..\..\Users\Armin\Documents\RimworldAssemblies\0Harmony.dll</HintPath>
+    <None Include="packages.config" />
+    <Reference Include="0Harmony, Version=2.0.0.9, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Lib.Harmony.2.0.0.9\lib\net472\0Harmony.dll</HintPath>
     </Reference>
     <Reference Include="Assembly-CSharp">
       <HintPath>..\..\..\RimWorldWin64_Data\Managed\Assembly-CSharp.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="HugsLib">
-      <HintPath>..\..\..\..\..\..\..\..\Users\Armin\Documents\RimworldAssemblies\HugsLib.dll</HintPath>
+    <Reference Include="HugsLib, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\UnlimitedHugs.Rimworld.HugsLib.7.1.4\lib\net472\HugsLib.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.InteropServices.RuntimeInformation" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="System.Data" />
@@ -53,14 +58,25 @@
       <HintPath>..\..\..\..\..\workshop\content\294100\1718525787\Assemblies\TwitchToolkit.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <None Include="..\About\About-Debug.xml" />
+    <None Include="..\About\About-Release.xml">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="..\About\About.xml" />
+    <None Include="..\About\Manifest.xml" />
+    <None Include="..\About\Preview.png" />
+    <None Include="..\About\PublishedFileId.txt" />
+    <None Include="..\Defs\**" />
+    <None Include="..\Languages\**" />
+    <None Include="..\Patches\**" />
     <Reference Include="UnityEngine">
       <HintPath>..\..\..\RimWorldWin64_Data\Managed\UnityEngine.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <None Include="..\About\**" />
-    <None Include="..\Defs\**" />
-    <None Include="..\Languages\**" />
-    <None Include="..\Patches\**" />
+    <Reference Include="UnityEngine.CoreModule">
+      <HintPath>..\..\..\RimWorldWin64_Data\Managed\UnityEngine.CoreModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Commands\MyPawnBase.cs" />

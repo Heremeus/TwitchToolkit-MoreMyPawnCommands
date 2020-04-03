@@ -1,4 +1,4 @@
-﻿using Harmony;
+﻿using HarmonyLib;
 using HugsLib;
 using HugsLib.Settings;
 using System.Collections.Generic;
