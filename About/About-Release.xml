@@ -5,6 +5,8 @@
   <supportedVersions>
     <li>1.0</li>
     <li>1.1</li>
+    <li>1.2</li>
+    <li>1.3</li>
   </supportedVersions>
   <packageId>heremeus.moremypawncommands</packageId>
 	<description>Adds new commands for your viewers. No more "Can you show my health tab please?", "What weapon do I have?" and so on.
